@@ -1,5 +1,6 @@
 import torch
 from TTS.api import TTS
+import os
 from gtts import gTTS
 
 
@@ -21,6 +22,7 @@ def text_to_speech_TTS(text, lang="en"):
 
 def text_to_speech_GTTS(text, lang):
     tts = gTTS(text=text, lang=lang, slow=False)
-    audio_file = "output.wav"
+    audio_file = "output.mp3"
     tts.save(audio_file)
     return audio_file
+
