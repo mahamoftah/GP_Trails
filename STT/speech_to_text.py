@@ -66,7 +66,7 @@ def speech_to_text_groq():
 
     try:
 
-        client = Groq(api_key="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")
+        client = Groq(api_key="")
         transcription = client.audio.transcriptions.create(
             file=audio,
             model="whisper-large-v3",
