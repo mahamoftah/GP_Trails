@@ -7,18 +7,23 @@
   - Python Files.
   - Simple UI using Streamlit.
   - Trying Different Models (Gemma2, LLAMA3) and Selecting One.
-    
+
 **Version3:**
+  - Simple UI.
+  - Using Different Models (Gemma2, LLAMA3).
+  - More Optimized STT.
+    
+**Version4:**
   - Working on it !!!!!!!!!.
   - Simple UI
   - Best Model
   - Fine Tuning
 
-**Version4:**
+**Version5:**
   - Advanced UI
   - Best Fine Tuned Model
 
-**Version5:**
+**Version6:**
   - Advanced UI
   - Best Fine Tuned Model
   - Deployment
