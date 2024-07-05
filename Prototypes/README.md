@@ -14,14 +14,16 @@
   - More Optimized STT.
     
 **Version4:**
+  - Simple UI
+  - Gemma2 Model
+  - Optimized TTS --> streamlit-TTS
+  - Optimized STT --> streamlit-mic-recorder
+
+**Version5:**
   - Working on it !!!!!!!!!.
   - Simple UI
   - Best Model
   - Fine Tuning
-
-**Version5:**
-  - Advanced UI
-  - Best Fine Tuned Model
 
 **Version6:**
   - Advanced UI
