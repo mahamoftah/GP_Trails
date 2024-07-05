@@ -1,26 +1,6 @@
-import torch
-from TTS.api import TTS
-from gtts import gTTS
+# https://pypi.org/project/streamlit-TTS/
+from streamlit_TTS import text_to_speech
 
 
-def text_to_speech_TTS(text, lang="en"):
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
-
-    audio_file = "output.wav"
-    tts.tts_to_file(
-        text=text,
-        file_path=audio_file,
-        speaker="Ana Florence",
-        language=lang,
-        split_sentences=True
-    )
-
-    return audio_file
-
-
-def text_to_speech_GTTS(text, lang):
-    tts = gTTS(text=text, lang=lang, slow=False)
-    audio_file = "output.wav"
-    tts.save(audio_file)
-    return audio_file
+def text_to_speech_streamlit(text, lang):
+    text_to_speech(text=text, language=lang)
