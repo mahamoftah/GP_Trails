@@ -10,12 +10,12 @@
 
 **Version3:**
   - Simple UI.
-  - Using Different Models (Gemma2, LLAMA3).
+  - Using Different Models (Gemma2, LLAMA3).  --> Ollama API, LangChain
   - More Optimized STT.
     
 **Version4:**
   - Simple UI
-  - Gemma2 Model
+  - Gemma2 Model  --> Groq API
   - Optimized TTS --> streamlit-TTS
   - Optimized STT --> streamlit-mic-recorder
 
