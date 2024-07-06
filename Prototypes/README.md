@@ -15,7 +15,7 @@
     
 **Version4:**
   - Simple UI
-  - Gemma2 Model  --> Groq API
+  - Gemma2 Model --> Groq API
   - Optimized TTS --> streamlit-TTS
   - Optimized STT --> streamlit-mic-recorder
 
