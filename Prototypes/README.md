@@ -15,7 +15,7 @@
     
 **Version4:**
   - Simple UI
-  - Gemma2 Model --> Groq API
+  - Gemma2 Model --> Groq API (Faster than Ollama API and LangChain)
   - Optimized TTS --> streamlit-TTS
   - Optimized STT --> streamlit-mic-recorder
 
